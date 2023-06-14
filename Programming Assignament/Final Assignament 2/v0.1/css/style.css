@@ -1,0 +1,45 @@
+.game {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+.square {
+    width: 69px;
+    height: 69px;
+    background-color: lightblue;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .15s ease-in;
+    text-decoration: none;
+    color: black;
+}
+
+.square:visited {
+    color: black;
+}
+
+input {
+    width: 25%;
+    font-size: 90%;
+    text-align: center;
+    background-color: inherit;
+    border: none;
+    /* display: none; */
+}
+
+#reset {
+
+    width: 100px;
+}
+
+.show {
+    background-color: lightsalmon;
+}
+
+/* .show>input {
+    display: initial;
+} */
