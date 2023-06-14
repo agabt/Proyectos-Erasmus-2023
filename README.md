@@ -10,6 +10,8 @@ Este repositorio es de todas las tareas / proyectos (assignaments in english) qu
 - PHP
 - HTML, CSS
 
+
+
 Ademas de esto (a modo de curiosidad), hemos hecho lo siguiente:
 
 - Desmontar ordenadores, limpiarlos, volverlos a probar y reparar en caso de que esten rotos
