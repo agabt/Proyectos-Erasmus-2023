@@ -1,0 +1,1 @@
+document.write(`<button onclick="alert('Hello World')">Click me</button>`);
