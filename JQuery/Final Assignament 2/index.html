@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="content.js"></script>
+    <title>Final Assignament 2 - Fancy Form</title>
+</head>
+
+<body>
+    <div class="flex">
+        <h5 class="title">Elige idioma / Choose language</h5>
+
+        <div class="flex flex-row">
+            <img class="img-icon" id="spanish"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/320px-Flag_of_Spain.svg.png"
+                alt="spanish">
+
+            <img class="img-icon" id="english"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/320px-Flag_of_the_United_States.svg.png"
+                alt="english">
+        </div>
+
+        <form action="post" class="flex form-style">
+            <h1 class="title">Registro</h1>
+
+            <div class="flex flex-row exception">
+                <label for="salutation-sr" class="title subtitle">Señor</label>
+                <input type="radio" name="gender" class="gender" id="salutation-sr">
+
+                <label for="salutation-md" class="title subtitle">Señora</label>
+                <input type="radio" name="gender" class="gender" id="salutation-md">
+            </div>
+
+            <div class="flex align-left large-field">
+                <label for="first-name" class="title subtitle">Nombre Completo</label>
+                <input type="text" id="name">
+            </div>
+
+            <div class="flex align-left large-field">
+                <label for="address" class="title subtitle">Direccion</label>
+                <input type="text" id="address">
+            </div>
+
+            <div class="flex flex-row align-left large-field">
+                <div class="flex align-left">
+                    <label for="residence" class="title subtitle">Ciudad</label>
+                    <input type="text" id="residence">
+                </div>
+
+                <div class="flex align-left">
+                    <label for="postal-code" class="title subtitle">CP</label>
+                    <input type="text" id="postal-code">
+                </div>
+            </div>
+
+            <div class="flex flex-row align-left large-field">
+                <div class="flex align-left">
+                    <label for="date-birth" class="title subtitle">F. Nacimiento</label>
+                    <input type="date" id="date-birth">
+                </div>
+
+                <p id="age"></p>
+
+                <div class="flex align-left">
+                    <label for="nacionality" class="title subtitle">Nacionalidad</label>
+                    <input type="text" id="nacionality">
+                </div>
+            </div>
+
+            <div class="flex align-left large-field">
+                <label for="occupation" class="title subtitle">Ocupación</label>
+                <input type="text" id="occupation">
+            </div>
+
+            <div class="flex align-left large-field">
+                <label for="comments" class="title subtitle">Comentarios</label>
+                <textarea name="comments" id="comments" cols="35" rows="13"></textarea>
+            </div>
+
+            <button id="btn-send">Enviar</button>
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>
